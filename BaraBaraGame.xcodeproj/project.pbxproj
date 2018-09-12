@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77AD1BA11EA9AFEE005D02ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AD1BA01EA9AFEE005D02ED /* AppDelegate.swift */; };
+		77AD1BA31EA9AFEE005D02ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AD1BA21EA9AFEE005D02ED /* ViewController.swift */; };
+		77AD1BA61EA9AFEE005D02ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77AD1BA41EA9AFEE005D02ED /* Main.storyboard */; };
+		77AD1BA81EA9AFEE005D02ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77AD1BA71EA9AFEE005D02ED /* Assets.xcassets */; };
+		77AD1BAB1EA9AFEE005D02ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77AD1BA91EA9AFEE005D02ED /* LaunchScreen.storyboard */; };
+		77AD1BB41EA9B187005D02ED /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 77AD1BB21EA9B187005D02ED /* bar.png */; };
+		77AD1BB51EA9B187005D02ED /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 77AD1BB31EA9B187005D02ED /* tail.png */; };
+		77AD1BB71EA9B343005D02ED /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AD1BB61EA9B343005D02ED /* GameViewController.swift */; };
+		77AD1BB91EA9B359005D02ED /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AD1BB81EA9B359005D02ED /* RankingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77AD1B9D1EA9AFEE005D02ED /* BaraBaraGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaraBaraGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77AD1BA01EA9AFEE005D02ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77AD1BA21EA9AFEE005D02ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77AD1BA51EA9AFEE005D02ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77AD1BA71EA9AFEE005D02ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77AD1BAA1EA9AFEE005D02ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77AD1BAC1EA9AFEE005D02ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77AD1BB21EA9B187005D02ED /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		77AD1BB31EA9B187005D02ED /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		77AD1BB61EA9B343005D02ED /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		77AD1BB81EA9B359005D02ED /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77AD1B9A1EA9AFEE005D02ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77AD1B941EA9AFEE005D02ED = {
+			isa = PBXGroup;
+			children = (
+				77AD1B9F1EA9AFEE005D02ED /* BaraBaraGame */,
+				77AD1B9E1EA9AFEE005D02ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77AD1B9E1EA9AFEE005D02ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77AD1B9D1EA9AFEE005D02ED /* BaraBaraGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77AD1B9F1EA9AFEE005D02ED /* BaraBaraGame */ = {
+			isa = PBXGroup;
+			children = (
+				77AD1BB21EA9B187005D02ED /* bar.png */,
+				77AD1BB31EA9B187005D02ED /* tail.png */,
+				77AD1BA01EA9AFEE005D02ED /* AppDelegate.swift */,
+				77AD1BA21EA9AFEE005D02ED /* ViewController.swift */,
+				77AD1BB61EA9B343005D02ED /* GameViewController.swift */,
+				77AD1BB81EA9B359005D02ED /* RankingViewController.swift */,
+				77AD1BA41EA9AFEE005D02ED /* Main.storyboard */,
+				77AD1BA71EA9AFEE005D02ED /* Assets.xcassets */,
+				77AD1BA91EA9AFEE005D02ED /* LaunchScreen.storyboard */,
+				77AD1BAC1EA9AFEE005D02ED /* Info.plist */,
+			);
+			path = BaraBaraGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77AD1B9C1EA9AFEE005D02ED /* BaraBaraGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77AD1BAF1EA9AFEE005D02ED /* Build configuration list for PBXNativeTarget "BaraBaraGame" */;
+			buildPhases = (
+				77AD1B991EA9AFEE005D02ED /* Sources */,
+				77AD1B9A1EA9AFEE005D02ED /* Frameworks */,
+				77AD1B9B1EA9AFEE005D02ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaraBaraGame;
+			productName = BaraBaraGame;
+			productReference = 77AD1B9D1EA9AFEE005D02ED /* BaraBaraGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77AD1B951EA9AFEE005D02ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Kyome;
+				TargetAttributes = {
+					77AD1B9C1EA9AFEE005D02ED = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 77AD1B981EA9AFEE005D02ED /* Build configuration list for PBXProject "BaraBaraGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77AD1B941EA9AFEE005D02ED;
+			productRefGroup = 77AD1B9E1EA9AFEE005D02ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77AD1B9C1EA9AFEE005D02ED /* BaraBaraGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77AD1B9B1EA9AFEE005D02ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77AD1BAB1EA9AFEE005D02ED /* LaunchScreen.storyboard in Resources */,
+				77AD1BB51EA9B187005D02ED /* tail.png in Resources */,
+				77AD1BA81EA9AFEE005D02ED /* Assets.xcassets in Resources */,
+				77AD1BA61EA9AFEE005D02ED /* Main.storyboard in Resources */,
+				77AD1BB41EA9B187005D02ED /* bar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77AD1B991EA9AFEE005D02ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77AD1BA31EA9AFEE005D02ED /* ViewController.swift in Sources */,
+				77AD1BB71EA9B343005D02ED /* GameViewController.swift in Sources */,
+				77AD1BA11EA9AFEE005D02ED /* AppDelegate.swift in Sources */,
+				77AD1BB91EA9B359005D02ED /* RankingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77AD1BA41EA9AFEE005D02ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77AD1BA51EA9AFEE005D02ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77AD1BA91EA9AFEE005D02ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77AD1BAA1EA9AFEE005D02ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77AD1BAD1EA9AFEE005D02ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77AD1BAE1EA9AFEE005D02ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77AD1BB01EA9AFEE005D02ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BaraBaraGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyome.BaraBaraGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		77AD1BB11EA9AFEE005D02ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BaraBaraGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyome.BaraBaraGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77AD1B981EA9AFEE005D02ED /* Build configuration list for PBXProject "BaraBaraGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77AD1BAD1EA9AFEE005D02ED /* Debug */,
+				77AD1BAE1EA9AFEE005D02ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77AD1BAF1EA9AFEE005D02ED /* Build configuration list for PBXNativeTarget "BaraBaraGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77AD1BB01EA9AFEE005D02ED /* Debug */,
+				77AD1BB11EA9AFEE005D02ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77AD1B951EA9AFEE005D02ED /* Project object */;
+}
